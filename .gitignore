@@ -1,0 +1,53 @@
+# Fichiers de configuration sensibles
+.env
+config.local.php
+
+# Logs
+*.log
+logs/
+error_log
+
+# Fichiers de cache
+*.cache
+cache/
+tmp/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Fichiers de sauvegarde
+*.bak
+*.backup
+*.old
+
+# Uploads temporaires
+uploads/temp/
+*.tmp
+
+# Node modules (si utilisé)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Composer (si utilisé)
+vendor/
+composer.lock
+
+# Fichiers de base de données
+*.sql
+*.db
+*.sqlite
+
+# Variables d'environnement
+.env.local
+.env.production
+
